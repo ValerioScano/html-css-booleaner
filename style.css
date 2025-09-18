@@ -38,11 +38,53 @@ table {width: 100%;}
     background-color: blue;
 }
 
-#thead_td {
+.thead_td12 {
     color: white;
+    text-align: center;
+    width: 20%;
+}
+
+#thead_td3 {
+    color: white;
+    text-align: center;
+    width: 60%;
 }
 
 /* fine intestazione */
+/* inizio table body */
 
-#pi1 {background-image: url(./img/monitor.jpg);}
-#pi2 {background-image: url(./img/graph.jpg);}
+.tr_aqua {
+    background-color: aqua;
+}
+/* fine table body */
+
+/* inizio footer */
+
+#pi {
+    color: grey;
+}
+
+#img_container1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+} 
+
+#pi1 {
+    color: white;
+    text-align: center
+
+}
+
+#img_container2 {
+    height: 300px;
+    width: 300px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
+
+#pi2 {
+    color: white;
+    text-align: center
+}
