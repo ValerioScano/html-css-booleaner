@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(9, 214, 251);
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+    height: 75px;
+}
+
+#logo {
+    width: 25%; 
+    height: 80%;}
+
+#color_author {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 200;
+}
+
+#color_date {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 100;
+}
+
+#descrizione_immagine {
+    font-size: 10px;
+}
+
+
+/* sezione tabella */
+
+table {width: 100%;}
+
+/* inizio intestazione */
+
+#thead_row {
+    background-color: blue;
+}
+
+#thead_td {
+    color: white;
+}
+
+/* fine intestazione */
+
+#pi1 {background-image: url(./img/monitor.jpg);}
+#pi2 {background-image: url(./img/graph.jpg);}
